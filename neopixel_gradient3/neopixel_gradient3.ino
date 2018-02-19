@@ -97,7 +97,7 @@ void activate() {
   
   
   startPixel++;
-  if( startPixel == 60 )
+  if( startPixel == numPixels )
     startPixel = 0;
 }
 
